@@ -1,3 +1,2 @@
---A code that lists all databases of MYSQL server
-
+-- A program that shows the databases of a user.
 SHOW DATABASES;
