@@ -1,4 +1,9 @@
 #!/usr/bin/node
-console.log('C is fun');
-console.log('Python is cool');
-console.log('Javascript is amazing');
+
+if (process.argv.length < 3) {
+  console.log('No argument');
+} else if (process.argv.length > 2) {
+  console.log('Argument found');
+} else {
+  console.log('Error');
+}
