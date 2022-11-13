@@ -1,11 +1,6 @@
 #!/usr/bin/node
 const value = process.argv;
 const array = value.slice(2);
-let counter = 0;
-
-/*for (counter = 0; counter < parseInt(value.length); counter++) {
-  array[counter] = parseInt(value[2 + counter]);
-}*/
 
 function compareNumbers (a, b) {
   return a - b;
